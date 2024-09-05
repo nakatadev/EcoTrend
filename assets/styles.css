@@ -3,13 +3,6 @@
     padding: 0;
 }
 
-
-.header {
-    display: flex;
-    height: 47px;
-    width: 393px;
-    justify-content: space-around;
-    margin-top: 10px;
+main{
+    width: 414px;
 }
-
-
