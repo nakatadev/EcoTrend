@@ -1,0 +1,179 @@
+/* Estilo Base - Mobile First */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-produto{
+    margin-left: 50px;
+}
+.imagem-produto img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail.active {
+    opacity: 1;
+    border: 2px solid #333;
+}
+
+.thumbnail:hover {
+    opacity: 1;
+}
+.info-produto{
+    margin-top: 50px;
+}
+.info-produto h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.info-produto p {
+    margin: 20px 0;
+    color: #666;
+}
+
+.pagamento {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.pagamento img {
+    width: 100px;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar {
+    background-color: #00ff00;
+    color: white;
+    font-weight: bold;
+}
+
+.adicionar {
+    background-color: #ffffff;
+    color: #333;
+    font-weight: bold;
+}
+footer {
+    background-color: #b8b5b5;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .contact-info, .social-media {
+    max-width: 45%;
+  }
+  
+  .contact-info h3, .social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #FFD700; /* Cor de hover nos ícones */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+/* Estilos para telas maiores (Tablets e Desktops) */
+@media (min-width: 768px) {
+    .produto-container {
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .imagem-produto {
+        width: 50%;
+    }
+
+    .info-produto {
+        width: 50%;
+    }
+}
