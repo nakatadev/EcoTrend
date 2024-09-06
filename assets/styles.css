@@ -125,3 +125,53 @@
     border: none;
     color: white;
 }
+
+footer {
+    background-color: #b8b5b5;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  
+  .contact-info, .social-media {
+    max-width: 45%;
+  }
+  
+  .contact-info h3, .social-media h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .contact-info p {
+    margin: 5px 0;
+    margin-top: 10px;
+    font-size: 0.5em;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 0.5em;
+    text-decoration: none;
+  }
+  
+  .social-media a:hover {
+    color: #FFD700; /* Cor de hover nos ícones */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.4em;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
