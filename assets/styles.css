@@ -124,6 +124,7 @@
     background-color: #3F8978;
     border: none;
     color: white;
+    padding: 0.2em 0 0 1.2em;
 }
 
 footer {
@@ -174,4 +175,106 @@ footer {
   .footer-bottom p {
     margin: 0;
   }
-  
+
+
+@media (min-width: 1024px) {
+
+
+    .texto__maisvendidos{
+        margin-top: 0.5em;
+        font-size: 2.5em;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        color: rgb(56, 54, 54) !important;
+    }
+
+    .card {
+        margin: 0 2em 0 2em;
+        width: 15em !important;
+        height: 15em !important;
+        align-items: center;
+    }
+
+    .sobre__nos{
+        display: flex;
+        justify-content: space-between !important;
+        margin: 0 2em 0 2em;
+        flex-direction: column;
+        align-items: center;
+    }
+    .texto__sobrenos{
+        align-items: center;
+        width: 500px;
+    }
+    .logo__sobrenos{
+        width: 330px;
+        height: 300px;
+    }
+
+    .btn__comprar {
+        width: 160px;
+        height:40px;
+        background-color: #15FF00 !important;
+        font-size: 0.6em;
+        color: white !important;
+        margin-left: 1em;
+        font-size: 1em;
+    }
+
+    .btn__saibamais {
+        margin-top: 2em !important;
+        width: 10em;
+        height: 4em;
+        border: none;
+        border-radius: 20px;
+        background-color: #3F8978;
+        font-size: 1em;
+        color: white;
+        font-family: "Inter", sans-serif;
+    }
+
+    .depoimentos img{
+        width: 15em;
+        height: 10em;
+    }
+    .parceiros img{
+        width: auto;
+        height: auto;
+    }
+    .parceiros {
+        display: flex;
+        padding: 0 2em 0 2em;
+    }
+    .newsletter{
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+        align-items: center;
+        background-color: #3F8978;
+    }
+    .texto__newsletter {
+        width: 550px;
+        font-size: 2em;
+        align-items: center;
+        padding: 0.3em;
+    }
+    .btn__newsletter{
+        margin-top: 2em !important;
+        width: 12em;
+        height: 4em;
+        border: none;
+        border-radius: 20px;
+        background-color: #1c5c4d;
+        font-size: 0.8em;
+        color: white;
+        font-family: "Inter", sans-serif;
+        padding-bottom: 0.5em;
+        margin-bottom: 1.8em;
+        font-size: 1em;
+        padding: 1em 0 0 2.8em;
+        text-decoration: none;
+    }
+
+}
+
+

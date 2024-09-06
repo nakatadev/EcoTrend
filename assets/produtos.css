@@ -1,0 +1,38 @@
+nav{
+    align-items: space-between;
+}
+#grid{
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "produtos produtos produtos"
+    "produtos produtos produtos"
+    "produtos produtos produtos"
+    "produtos produtos produtos";
+}
+
+#filtro {
+    grid-area: filterbar;
+}
+
+#produtos{
+    grid-area: produtos;
+    margin: 50px;
+}
+
+.toolbox-item {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .toolbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+
+
+
+

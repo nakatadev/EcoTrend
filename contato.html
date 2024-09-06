@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Contato</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/formulario.css">
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"></header>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-3 px-lg-4">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre nós</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#!">Cadastre-se</a></li>
+                                <li>
+                                    <hr class="dropdown-divider" />
+                                </li>
+                                <li><a class="dropdown-item" href="#!">Todos Produtos</a></li>
+                                <li><a class="dropdown-item" href="#!">Novidades</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#!"><img src="./icones/Design_sem_nome__20_-removebg-preview.png"
+                    alt="Logo EcoTrend" class="logo_homemob" width="70px" height="70px"></a>
+
+                <button class="btn">
+                    <i><img src="./icones/Shopping Cart.svg" alt="" width="30px" height="30px"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+      <h2 class="text-center mb-4">Entre em Contato</h2>
+      <form>
+        <!-- Nome -->
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+        </div>
+
+        <!-- Assunto -->
+        <div class="form-group">
+          <label for="assunto">Assunto</label>
+          <input type="text" class="form-control" id="assunto" placeholder="Digite o assunto" required>
+        </div>
+
+        <!-- Mensagem -->
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem" required></textarea>
+        </div>
+
+        <!-- Botão de Enviar -->
+        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="contact-info">
+          <h3>Contato</h3>
+          <p>Email: contato@exemplo.com</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <p>Endereço: Rua Exemplo, 123, São Paulo, SP</p>
+        </div>
+        <div class="social-media">
+          <h3>Redes Sociais</h3>
+          <a href="https://www.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-f">Facebook</i>
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fab fa-instagram">Instagram</i>
+          </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <i class="fab fa-twitter">Twiter</i>
+          </a>
+          <a href="https://www.linkedin.com/rodrigo-nakata" target="_blank">
+            <i class="fab fa-linkedin-in">Linkedin</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 EcoTrend. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

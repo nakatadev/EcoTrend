@@ -1,0 +1,69 @@
+/* Estilo geral do footer */
+footer {
+    background-color: #333; /* Cor de fundo escura para contraste */
+    color: #fff; /* Cor do texto clara */
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    margin-top: 23px;
+}
+
+/* Container principal do footer */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as seções se ajustem em telas menores */
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o container */
+}
+
+/* Estilos para as seções dentro do footer */
+.contact-info, .social-media {
+    flex: 1; /* Permite que as seções se expandam igualmente */
+    margin: 10px;
+    max-width: 200px; /* Limita a largura das seções */
+}
+
+.contact-info h3, .social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff; /* Cor dos ícones e links */
+    font-size: 20px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.social-media a:hover {
+    color: #FFD700; /* Cor de hover para os ícones */
+}
+
+/* Linha inferior com direitos autorais */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444; /* Linha superior escura */
+    padding-top: 10px;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Alinha as seções verticalmente em telas menores */
+        align-items: center; /* Centraliza as seções */
+    }
+    .contact-info, .social-media {
+        max-width: 100%; /* Permite que as seções ocupem toda a largura disponível */
+        text-align: center; /* Centraliza o texto */
+    }
+    .social-media a {
+        margin: 5px; /* Ajusta a margem dos ícones em telas menores */
+    }
+}
